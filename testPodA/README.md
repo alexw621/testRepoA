@@ -22,7 +22,7 @@ pod "testPodA"
 
 ## Author
 
-alexw621, alexwong@bbpos.com
+Alex Wong, alex.wong@bbpos.com
 
 ## License
 

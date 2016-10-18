@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodA'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of testPodA.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'testPodA/Classes/*.{h,m}'
+  s.source_files = 'testPodA/Classes/**/*.{h,m}'
 
   # s.resource_bundles = {
   #   'testPodA' => ['testPodA/Assets/*.png']
