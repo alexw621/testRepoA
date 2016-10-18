@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testPodA'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of testPodA.'
+  s.version          = '0.0.2'
+  s.summary          = 'testPodA summary'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,12 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Desc'
+  s.description      = 'testPodA description'
   s.homepage         = 'https://github.com/alexw621/testRepoA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Wong' => 'alex.wong@bbpos.com' }
-  s.source           = { :git => 'https://github.com/alexw621/testRepoA.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/alexw621/testRepoA.git' }
+  # , :tag => s.version.to_s
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -33,7 +34,7 @@ Pod::Spec.new do |s|
   #   'testPodA' => ['testPodA/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'testPodA/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
